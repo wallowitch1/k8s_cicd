@@ -11,11 +11,11 @@ spec:
       maxSurge: 1
   selector:
     matchLabels:
-      app: phptest
+      app: phptest-jenkins
   template:
     metadata:
       labels:
-        app: phptest
+        app: phptest-jenkins
     spec:
       containers:
       - name: phptest
